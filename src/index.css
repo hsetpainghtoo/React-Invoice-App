@@ -1,0 +1,12 @@
+@import url(../node_modules/sweetalert2/dist/sweetalert2.css);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swal2-confirm {
+  @apply py-3 px-6 relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 focus:outline-none bg-gradient-to-br from-purple-600 to-cyan-500 text-white focus:ring-4 focus:ring-cyan-300 enabled:hover:bg-gradient-to-bl dark:focus:ring-cyan-800 border-0 rounded-lg active:scale-95;
+}
+
+/* .swal2-cancel{
+    @apply py-3 px-6 relative flex items-stretch justify-center p-0.5 text-center font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 focus:outline-none border border-black bg-white text-gray-900 focus:ring-4 focus:ring-cyan-300 enabled:hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-600 dark:text-white dark:focus:ring-gray-700 dark:enabled:hover:border-gray-700 dark:enabled:hover:bg-gray-700 rounded-lg active:scale-95 !important;
+} */
